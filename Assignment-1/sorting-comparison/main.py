@@ -7,7 +7,7 @@ length = 10
 y1 = list()
 y2 = list()
 x = list()
-while length <= 3000:
+while length <= 150:
     x.append(length)
     arr = [rand.randint(0, 5000) for x in range(length)]
     # print(arr)
