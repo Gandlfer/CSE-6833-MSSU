@@ -23,8 +23,10 @@ while length <= 3000:
 
 # print(y1)
 # print(y2)
-plt.plot(x, y1, label="line 1")
-plt.plot(x, y2, label="line 2")
+plt.plot(x, y1, label="Merge Sort")
+plt.plot(x, y2, label="Selection Sort")
+plt.xlabel("Length of number")
+plt.ylabel("Execution Time")
 # show a legend on the plot
 plt.legend()
 
