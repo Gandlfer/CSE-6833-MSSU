@@ -8,7 +8,7 @@ y1 = list()
 y2 = list()
 x = list()
 
-while power <= 100:
+while power <= 200:
     x.append(power)
     num = lambda: rand.randint(pow(10, power - 1), pow(10, power) - 1)
     karatsuba = timeit.Timer(lambda: karatsubaMultiplication(num(), num())).timeit(1)
